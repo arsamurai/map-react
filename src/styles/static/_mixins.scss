@@ -1,0 +1,36 @@
+/* flex settings */
+@mixin flex($jc: center, $ai: center) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+%flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+/* media query settings */
+@mixin lg-desktop {
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin desktop-sm {
+  @media screen and (min-width: 991px) {
+    @content;
+  }
+}
+
+@mixin table {
+  @media screen and (min-width: 767px) {
+    @content;
+  }
+}

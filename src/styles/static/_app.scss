@@ -1,0 +1,25 @@
+.app__header {
+	margin: 25px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.app__title {
+	font-size: 30px;
+}
+
+.app__content {
+	display: flex;
+	height: 75vh;
+	max-height: 800px;
+	overflow: hidden;
+}
+
+.map__wrapper {
+	width: 100%;
+	margin-right: 10px;
+	&.w-80 {
+		width: 80%;
+	}
+}

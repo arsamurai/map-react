@@ -1,0 +1,13 @@
+.slider {
+  width: 300px;
+  & > div {
+    height: 75vh;
+    max-height: 800px;
+  }
+}
+
+.swiperSlide {
+  width: 300px !important;
+  height: fit-content !important;
+  margin-bottom: 10px;
+}
